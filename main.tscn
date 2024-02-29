@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://jgysubxopv3u"]
+
+[ext_resource type="PackedScene" uid="uid://pdypg721owys" path="res://cookie.tscn" id="1_8bhcj"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Cookie" parent="." instance=ExtResource("1_8bhcj")]
+position = Vector2(180, 342)
